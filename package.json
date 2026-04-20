@@ -1,0 +1,23 @@
+{
+  "name": "rate-limiter",
+  "version": "1.0.0",
+  "description": "Rate-limited API service (per-user sliding-window, in-memory).",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "rate-limiter",
+    "express",
+    "sliding-window"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "helmet": "^7.1.0"
+  }
+}
