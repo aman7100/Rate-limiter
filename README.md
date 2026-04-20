@@ -167,13 +167,14 @@ after `SHUTDOWN_TIMEOUT_MS` if anything stalls.
 - **Wall-clock based.** Uses `Date.now()`. Large backward clock jumps could
   temporarily widen the window.
 - **No per-IP or global limit.** Per-user only. Layer a per-IP limit and a
-  global concurrency bound in front for real hostile traffic.
+  global concurrency bound in front for real hostile traffic. 
+
+  //Created Readme File using AI 
 
 ## Layout
 
 ```
 .
-├── Dockerfile
 ├── .env.example
 ├── index.js              # Entry point: config, logger, lifecycle
 ├── src/
